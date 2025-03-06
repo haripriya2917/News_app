@@ -1,0 +1,63 @@
+.Hero-container{
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-block-end: 3px solid #000;
+    padding-block-end: 3vh;
+    margin: 0 2vw;
+}
+
+.hero-article-1{
+    cursor: pointer;
+
+}
+
+.hero-article-1 img{
+    inline-size: 45vw;
+    border-radius: 0.3rem;
+    block-size: 60vh;
+
+}
+
+.hero-article-1:hover{
+
+    transform: scale(1.025);
+    transition: 0.5s ease-in-out;
+}
+
+.hero-article-1 h3{
+    font-size: 1.2rem;
+    margin: 0;
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
+    inline-size: 45vw;
+}
+
+.hero-article-2{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
+}
+
+.hero-article-small{
+
+    inline-size: 100%;
+    cursor: pointer;
+}
+
+.hero-article-small:hover{
+
+    transform: scale(1.03);
+    transition: 0.5s ease-in-out;
+}
+
+.hero-article-small img{
+    inline-size: 100%;
+    border-radius: 0.3rem;
+}
+
+
+
+.hero-article-small p{
+    font-size: 0.9rem;
+}
